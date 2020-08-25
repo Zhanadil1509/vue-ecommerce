@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "analyze": "cross-env NODE_ENV=production  nuxt build --analyze",
-    "build": "cross-env NODE_ENV=production nuxt generate",
+    "build": "cross-env NODE_ENV=production nuxt build",
     "buildandstart": "cross-env NODE_ENV=production nuxt build && cross-env NODE_ENV=production nuxt start",
     "dev": "cross-env NODE_ENV=development NUXT_PORT=3000 nuxt",
-    "start": "cross-env NODE_ENV=production nuxt start"
+    "start": "cross-env NODE_ENV=production nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.1",
