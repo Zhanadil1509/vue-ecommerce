@@ -3,6 +3,7 @@
     <h1>
       Main Page
     </h1>
+    <slot />
   </main>
 </template>
 
